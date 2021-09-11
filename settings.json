@@ -50,7 +50,7 @@
         "height": "100%",
         "background-position": "100% 100%",
         "background-repeat": "no-repeat",
-        "opacity": 0.25  //不透明度
+        "opacity": 0.25  //Background插件 不透明度
     },
     "background.useFront": true,  //前景图/背景图。 在代码上面还是下面 true:On the top of code. false: Behind the code
     "background.useDefault": false,  //使用默认图片（不生效自定义图片）

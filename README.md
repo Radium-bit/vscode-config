@@ -8,8 +8,6 @@
 
 This is my personal configuration file for Visual Studio Code.
 
-
-
 ## 插件列表 / Add-Ons List
 
 > [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
