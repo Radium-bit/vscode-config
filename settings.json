@@ -1,0 +1,77 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.profiles.windows":{            //定义终端类型和路径
+        "PowerShell":{
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "source":"PowerShell",
+            "args": []
+        },
+        "Git Bash":{
+            "source":"Git Bash",
+            "args": []
+        },
+        "CMD":{
+            "path": "C:\\WINDOWS\\System32\\cmd.exe",
+            "args": []
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",    //默认使用的终端（需对应上述名称）
+//     "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",  //默认使用的终端（旧版）
+    "update.enableWindowsBackgroundUpdates": false,  //后台自动下载vscode本体更新
+    "update.mode": "none",  //更新检查模式 调整为不检查
+    "editor.tokenColorCustomizations":{
+        "comments": "#888888da",      //注释
+       // "keywords": "#0a0", 			// 关键字
+        //"variables": "#f00", 			// 变量名
+        //"strings": "#d4ca7abd", 		// 字符串
+       // "functions": "#5b99fcc9", 	// 函数名
+        "numbers": "#c4ff76" 			// 数字
+    },
+    "editor.maxTokenizationLineLength":30000,  //进行高亮的最大代码行数
+    "workbench.colorCustomizations":{
+        "editor.selectionBackground": "#ac2bcc7e",   //选中高亮
+        //"editor.background": "#C7EDCC",       	  //背景颜色
+        "statusBar.background" : "#004b91",        //底部栏颜色（文件夹已打开）
+        "statusBar.noFolderBackground" : "#004b91" //底部栏颜色（文件夹未打开）
+    },
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.editor.enablePreview": false,
+    "extensions.autoUpdate": false,
+    "background.customImages": [  //background插件参数（应用后请安装Fix VSCode Checksums，并执行命令Fix Checksums ： Apply修复错误）
+        "file:///C:/Yeyan.png"    //自定义图片路径
+    ],
+    "background.enabled": false,  //是否启用Background（右下角图片插件）
+    "background.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "100%",
+        "height": "100%",
+        "background-position": "100% 100%",
+        "background-repeat": "no-repeat",
+        "opacity": 0.25  //不透明度
+    },
+    "background.useFront": true,  //前景图/背景图。 在代码上面还是下面 true:On the top of code. false: Behind the code
+    "background.useDefault": false,  //使用默认图片（不生效自定义图片）
+    "backgroundCover.imagePath": "c:\\vscodebkg.jpg",
+    "backgroundCover.autoStatus": false,
+    "backgroundCover.opacity": 0.8,  //全局背景图不透明度
+    "python.languageServer": "Pylance",
+    "java.semanticHighlighting.enabled": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "git.ignoreWindowsGit27Warning": true,
+    "update.showReleaseNotes": false,
+    "python.autoUpdateLanguageServer": false,
+    "settingsSync.ignoredExtensions": [
+        "formulahendry.code-runner",
+        "wscats.eno"
+    ]
+}
