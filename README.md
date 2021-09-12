@@ -26,7 +26,7 @@ This is my personal configuration file for Visual Studio Code.
 > 
 > [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 > 
-> [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+> [~~markdownlint~~](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 > 
 > [pug](https://marketplace.visualstudio.com/items?itemName=amandeepmittal.pug)
 > 
