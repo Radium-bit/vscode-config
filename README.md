@@ -33,3 +33,7 @@ This is my personal configuration file for Visual Studio Code.
 > [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 > 
 > [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+> 
+> [Stylus](https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus)
+> 
+> [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)

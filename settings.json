@@ -1,6 +1,6 @@
 {
     "extensions.ignoreRecommendations": true,
-    "terminal.integrated.profiles.windows":{            //定义终端类型和路径
+    "terminal.integrated.profiles.windows":{            //定义终端类型和路径，该配置适用于Windows部分
         "PowerShell":{
             "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
             "source":"PowerShell",
@@ -38,7 +38,7 @@
     "workbench.editor.enablePreview": false,
     "extensions.autoUpdate": false,
     "background.customImages": [  //background插件参数（应用后请安装Fix VSCode Checksums，并执行命令Fix Checksums ： Apply修复错误）
-        "file:///C:/Yeyan.png"    //自定义图片路径
+        "file:///C:/example.png"    //自定义图片路径
     ],
     "background.enabled": false,  //是否启用Background（右下角图片插件）
     "background.style": {
@@ -50,7 +50,7 @@
         "height": "100%",
         "background-position": "100% 100%",
         "background-repeat": "no-repeat",
-        "opacity": 0.25  //Background插件 不透明度
+        "opacity": 0.25  //不透明度
     },
     "background.useFront": true,  //前景图/背景图。 在代码上面还是下面 true:On the top of code. false: Behind the code
     "background.useDefault": false,  //使用默认图片（不生效自定义图片）
@@ -73,5 +73,13 @@
     "settingsSync.ignoredExtensions": [
         "formulahendry.code-runner",
         "wscats.eno"
-    ]
+    ],
+    "python.showStartPage": false,
+    "telemetry.enableTelemetry": false,
+    "sync.removeExtensions": false,
+    "telemetry.enableCrashReporter": false,
+    "files.associations": {
+        "*.material": "json"
+    },
+    "workbench.iconTheme": "material-icon-theme"  //使用的图标包类型
 }
