@@ -4,6 +4,10 @@
 
 这是我的Visual Studio Code个人用配置文件。
 
+## 繁體中文
+
+我的Visual Studio Code個人configs
+
 ## English
 
 This is my personal configuration file for Visual Studio Code.
