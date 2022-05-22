@@ -84,7 +84,8 @@
         "*.vertex": "c",
         "*.fragment": "c"
     },
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.untitled.hint": "hidden", //使用的图标包类型
-    "editor.bracketPairColorization.enabled":false // 禁用花里胡哨的彩色括号，v1.67.2开始
+    "workbench.iconTheme": "material-icon-theme", //使用的图标包类型
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.bracketPairColorization.enabled":false, // 禁用花里胡哨的彩色括号，v1.67.2开始
+    "telemetry.telemetryLevel": "off" //禁用全部遙測
 }
