@@ -1,6 +1,6 @@
 {
     "extensions.ignoreRecommendations": true,
-    "terminal.integrated.profiles.windows":{            //定义终端类型和路径，该配置适用于Windows部分
+    "terminal.integrated.profiles.windows":{            //定义终端类型和路径
         "PowerShell":{
             "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
             "source":"PowerShell",
@@ -54,7 +54,7 @@
     },
     "background.useFront": true,  //前景图/背景图。 在代码上面还是下面 true:On the top of code. false: Behind the code
     "background.useDefault": false,  //使用默认图片（不生效自定义图片）
-    "backgroundCover.imagePath": "c:\\vscodebkg.jpg",
+    "backgroundCover.imagePath": "c:\\example.jpg",
     "backgroundCover.autoStatus": false,
     "backgroundCover.opacity": 0.8,  //全局背景图不透明度
     "python.languageServer": "Pylance",
@@ -76,10 +76,15 @@
     ],
     "python.showStartPage": false,
     "telemetry.enableTelemetry": false,
+    "sync.gist": "",
     "sync.removeExtensions": false,
     "telemetry.enableCrashReporter": false,
     "files.associations": {
-        "*.material": "json"
+        "*.material": "json",
+        "*.vertex": "c",
+        "*.fragment": "c"
     },
-    "workbench.iconTheme": "material-icon-theme"  //使用的图标包类型
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.untitled.hint": "hidden", //使用的图标包类型
+    "editor.bracketPairColorization.enabled":false // 禁用花里胡哨的彩色括号，v1.67.2开始
 }
