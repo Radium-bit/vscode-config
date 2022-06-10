@@ -30,7 +30,7 @@ This is my personal configuration file for Visual Studio Code.
 > 
 > [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 > 
-> [~~markdownlint~~](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+> [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor)
 > 
 > [pug](https://marketplace.visualstudio.com/items?itemName=amandeepmittal.pug)
 > 
